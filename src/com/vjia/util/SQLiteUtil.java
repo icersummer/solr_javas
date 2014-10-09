@@ -7,8 +7,12 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Calendar;
 
+import org.apache.log4j.Logger;
+
 public class SQLiteUtil {
 
+	static Logger logger = Logger.getRootLogger();
+	
 	static Connection conn = null;
 	static Statement stmt = null;
 	static ResultSet rs = null;
@@ -20,18 +24,22 @@ public class SQLiteUtil {
 			stmt = conn.createStatement();
 			conn.commit();
 		} catch (SQLException sqle) {
-			System.out.println("SQLException :" + sqle.getMessage());
+//			System.out.println("SQLException :" + sqle.getMessage());
+			logger.error("SQLException :" + sqle.getMessage());
 			System.exit(-1);
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
+			logger.error(e);
 		}
 		try {
 			stmt.executeUpdate("create table id_sequence(id number, name varchar(32))");
-			System.out.println("建表table001成功!");
+//			System.out.println("建表table001成功!");
+			logger.info("建表table001成功!");
 		}catch (SQLException sqle) {
-			System.out.println(" !! ID TABLE ALREADY EXIST !! SKIP.");
-			System.out.println("SQLException :" + sqle.getMessage());
+//			System.out.println(" !! ID TABLE ALREADY EXIST !! SKIP.");
+			logger.warn(" !! ID TABLE ALREADY EXIST !! SKIP.");
+			logger.warn("SQLException :" + sqle.getMessage());
 		}
 	}
 	public static Integer getUniqueIncrementId() {
@@ -46,7 +54,8 @@ public class SQLiteUtil {
 			return mid;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+//			e.printStackTrace();
+			logger.error(e);
 		}
 		return null;
 	}

@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
@@ -15,6 +16,8 @@ import org.apache.solr.common.SolrInputDocument;
 import com.vjia.util.Util;
 
 public class JavaIndexer {
+	
+	Logger logger = Logger.getLogger(JavaIndexer.class);
 	public SolrServer server = null;
 	
 	/**
@@ -32,7 +35,8 @@ public class JavaIndexer {
 
 		File file = new File(filePath);
 		if (!file.isDirectory()) {
-			System.out.println(" !! ERROR , NEED A FOLDER !!");
+//			System.out.println(" !! ERROR , NEED A FOLDER !!");
+			logger.error(" !! ERROR , NEED A FOLDER !!");
 		}
 		loopJavaFolder(filePath);
 	}
@@ -57,7 +61,8 @@ public class JavaIndexer {
 				return false;
 			}
 		});
-		System.out.println("subFiles = " + subFiles);
+//		System.out.println("subFiles = " + subFiles);
+		logger.debug("subFiles = " + subFiles);
 		
 		if(subFiles == null) {
 			return;
@@ -81,12 +86,15 @@ public class JavaIndexer {
 			doc.addField("fileContent", getFileContent(file));
 			server.add(doc);
 			server.commit();
-			System.out.println(String.format("index done : ", filename));
+//			System.out.println(String.format("index done : ", filename));
+			logger.info(String.format("index done : ", filename));
 		} catch (SolrServerException e) {
-			System.out.println("!! index file failed : " + filename);
+//			System.out.println("!! index file failed : " + filename);
+			logger.error("!! index file failed : " + filename);
 			e.printStackTrace();
 		} catch (IOException e) {
-			System.out.println("!! index file failed : " + filename);
+//			System.out.println("!! index file failed : " + filename);
+			logger.error("!! index file failed : " + filename);
 			e.printStackTrace();
 		}
 	}
