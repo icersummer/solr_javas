@@ -596,7 +596,8 @@
    <field name="fileName" type="text_general" indexed="true" stored="true"/>
    <field name="filePath" type="text_general" indexed="true" stored="true"/>
    <field name="fileContent" type="text_general" indexed="true" stored="true"/>
-
+   <field name="java_all" type="text_general" indexed="true" stored="true" multiValued="true" />
+   
    <!-- Dynamic field definitions.  If a field name is not found, dynamicFields
         will be used if the name matches any of the patterns.
         RESTRICTION: the glob-like pattern in the name attribute must have
@@ -665,7 +666,12 @@
    <!-- vjia dzone.com 
    <copyField source="name" dest="name_auto"/>-->
    <copyField source="name" dest="name_autocomplete"/>
-	
+
+   <!-- solr_javas project field-->
+   <copyField source="fileName" dest="java_all"/>
+   <copyField source="filePath" dest="java_all"/>
+   <copyField source="fileContent" dest="java_all"/>
+   
    <!-- Above, multiple source fields are copied to the [text] field. 
 	  Another way to map multiple source fields to the same 
 	  destination field is to use the dynamic field syntax. 

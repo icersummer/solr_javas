@@ -16,5 +16,7 @@
 	<input type="button" name="button" value="Reset" onclick="this.form.reset();" />
 </form>
 <a href="jsp/DeleteAllIndex.jsp">Delete All Index</a>
+<p/>
+<a href="jsp/SearchAllIndex.jsp">Index Search (by all)</a>
 </body>
 </html>
