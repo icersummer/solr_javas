@@ -18,5 +18,7 @@
 <a href="jsp/DeleteAllIndex.jsp">Delete All Index</a>
 <p/>
 <a href="jsp/SearchAllIndex.jsp">Index Search (by all)</a>
+<p/>
+<a href="jsp/create_java_and_index.jsp">Create Java File & Index it</a>
 </body>
 </html>
