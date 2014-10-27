@@ -9,3 +9,9 @@ The web-based project is to :
 - insert index record into DB(SQLite), with : file path, last modified timstamp;
 
 - the second to run to index, should identify whether the JAVA file has been indexed; and skip the indexed files.
+
+
+Useful Links:
+
+- [SolrTutorial](http://www.solrtutorial.com)
+
