@@ -1,0 +1,24 @@
+﻿
+Importance of speed in software systems
+
+Last week one of our teachers had a lecture about a method for finding the answer of integral equations more quickly than original method in Numerical Analysis. Another teacher (I designed this application for him. His field of study is Operating Research) asked him about the importance of this method and its speed when we can click on everything and find the answer immediately with computers. At first look I thought that he’s kidding but after listening to their conversation and our teacher answers decided to answer them.
+
+Why, you said! Who’s a software developer? Me or them?! Unfortunately most of our university teachers don’t have enough information about computer.
+
+Their answer is obvious but I write about it here.
+
+The speed is one of basic goals in computer sciences. Every software developer, website designer or network administrator knows the importance of speed in computer.
+
+Software is designing based on some methodologies and in most of them Object Oriented methods are applied. In these methods speed of each component causes to speed of whole system so improving a component is very important. Some methods like that our teacher had explained are just a small part of a simple component in real world applications.
+
+On the other hand we are noticed to design User Friendly systems and I define them as bellow:
+
+User Friendly software must have high speed, simple but beautiful User Interface and fills all needs of users.
+
+On basis of this definition we need better speed everyday because new needs are correlated with more complicated systems and this leads to less speed so we would improve our algorithms, architecture and methods.
+
+Although many users saw small databases but common software systems use large databases. Not only we need to improve the speed and performance of our databases but also the amount of data is growing because we’re alive and produce new data!! What will we do with larger databases in future?! And this is a reason for importance of speed in future!
+
+Also speed is not important only in computer. We need high speed devices and methods because they can save our time!
+
+Anyway surely improving the speed will be one of major goals of software engineering in future.

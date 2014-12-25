@@ -1,0 +1,29 @@
+﻿Amateur Decade
+
+In the previous entry Amateur Night, I talked about websites that don't want to think of themselves as websites, but little tiny kingdoms with special data that can be completely protected and uncopyable by massive "terms of service". It occurs to me there's a historical precedent for this on BBSes (and after a while, someone would have mentioned it) but it's actually not the same at all.
+
+In 1986, the United States passed an omnibus law called the Electronic Communications Privacy Act of 1986 (TEXTFILES.COM Copy). It basically increased the definition of wiretapping to include electronic communications, adding penalties and language around networks that were not just voice. The resultant effect was that electronic messages suddenly had the potential to be considered the same sort of communication as voice communications with fines and jail time for "intercepting" them.
+
+What all this activity did was get the attention of some people who were also bulletin board system operators, and a little crisis presented itself.
+
+To give better historical context, realize that the process of starting a bulletin board system was mostly one of financial outlay and little else in the way of "hurdles". There was the occasional guff given from phone companies as you ordered a second phone line (this was unusual enough to cause some trouble), and especially if you indicated you intended to have "data" on it. (One interpretation by The Phone Company and regional divisions was that a phone line intended for "data" had to be qualified, since that's what would happen with businesses and banks and so on.) But once you attached your machine, installed the software and started up, you were pretty much on your own.
+
+Some BBS owners were asking for money to use their BBSes, while others were running it at a significant loss. The business BBSes were naturally concerned with paying taxes, covering costs, maintaining quality, and acquiring content (although nobody called it "content", they called it "files"). Others were just doing it because it was fun, or to get pirated software, or to support a group they were with, or... well, you know, the reason people run websites now.
+
+Throw into this whole mix the concept of Fidonet, which was, by any measure, a true and honest "network", where communications were bouncing between hundreds and later thousands of machines, stored and forwarded, and worldwide.
+
+This leaves you with a very diverse group of people who all are nominally "BBS Sysops" or "BBS Operators" but they're all over the place in terms of awareness of laws, interests in profit, age, and so on. For a swath of that group, the sudden passage of an "Electronic Communications Privacy Act" that talks about carriers and network messages and so on seemed to fall squarely in the domain of bulletin board systems.
+
+Then, as now and before, there were a group of people who preferred to take the position with regards to law as one of "when they show up at the door, I'll give a shit". This generally works, but when it doesn't, it really doesn't. It sure makes life a lot simpler, though; run your board, do your stuff, don't be a dope, live free or die. This approach is not for everyone.
+
+There's another group who, hearing of a new law being passed or a new statute being implemented, immediately rush to be as absolutely compliant under all circumstances, even if it means self-immolation. They're the ones who freak out that a poker game at their house might violate gambling laws, or who stand, patiently, at an abandoned crosswalk until the little light goes from orange to white and they can cross. They're playing it safe, even safer than the original lawmakers might have intended. To this group within bulletin board system operators, the ECPA was a terrifying harbinger of doom.
+
+Thrashing occurred as to what to do about it. Here's a contemporary view of this law and its applicability to Sysops from 1988 from the textfiles.com collection. As the author (Michael Riddle) warns you, his conclusions are that of a layman, and as it turns out, a lot of his conclusions aren't on the mark, but Riddle's essay serves as an indication of the conflict occurring over this incursion of law into the BBS world.
+
+The ad-hoc solution taken by the more concerned BBS operators was to put a massive disclaimer when you signed up for the BBS. This "New User" message would dump a bunch of law onto you, explaining that the e-mails on the system were not private and that no effort was being made to protect them or keep them from being made available due to bugs, crashes, and so on. Once you agreed to this "term of service", you would be allowed on.
+
+Unlike the insane fairydust-and-unicorn terms of service I quoted before, these were done out of a fear, a fear of the BBS being subject to prosecution and lawsuits, misunderstandings where the board might go down or be ruined because someone had an expectation that simply couldn't be fulfilled. The ECPA disclaimer was a hack, an attempt to short-circuit further conflict by making it clear that the BBS wouldn't be a place to expect privacy. While sysops may have taken user privacy very seriously, the ones who were following laws knew they could never promise full compliance.
+
+This isn't the first mainstream crossing of law and BBSes; probably the Tcimpidis MOG UR BBS Bust of 1984 really got national attention (and is mostly forgotten). But the wave of fear and reaction of the ECPA of 1986 was where things started to go a tad wonky, and really paved the way for some truly embarassing and boneheaded law-technology intersections through the late 1980s and early 1990s. Amateur Decade.
+
+More on all of this later.

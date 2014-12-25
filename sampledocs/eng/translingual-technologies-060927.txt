@@ -1,0 +1,15 @@
+Basis Technology Acquires Translingual Technologies
+
+--- Industry veteran Scott Miller joins company as Chief Scientist ---
+
+CAMBRIDGE, MA; September 27, 2006 -- Basis Technology (www.basistech.com), the leading provider of enterprise software solutions for multilingual text retrieval and analysis, today announced it has acquired the intellectual property assets of Translingual Technologies LLC. As part of this transaction, Dr. Scott Miller has joined the firm as Chief Scientist.
+
+Translingual Technologies is a two-year-old Massachusetts startup which has developed highly innovative algorithms for making foreign-language content accessible to monolingual English speakers. Its technology incorporates such ground-breaking techniques as statistical parsing; automatic grammar construction; and exploitation of large, unannotated corpora.
+
+"During the past six months, I've met with several of the best firms in text analytics and extraction," Dr. Miller said. "After considering several offers, I decided to accept the one from Basis Technology, a company which has clearly distinguished itself by its track record of successful deployments, in both the commercial and government sectors."
+
+Prior to founding Translingual Technologies, Dr. Miller spent more than ten years at BBN Technologies, most recently as Division Scientist, where he developed several statistical named entity tagging algorithms. Miller's SIFT algorithm was the first trainable relation extraction technique to achieve top performance in the U.S. Government's MUC 7 competition, demonstrating the feasibility of automatically projecting syntactic structures onto semantic relations.
+
+"Scott Miller brings much more than his impeccable academic credentials to Basis Technology," stated Benson Margulies, CTO. "When I first saw a demonstration of Translingual Technologies' operational prototype, I was blown away. Our team can hardly wait to get the first production release into the hands of our customers."
+
+Dr. Miller holds M.S. and Ph.D. degrees in Computer Science from Northeastern University. He has worked extensively in machine learning and statistical language modeling for over fifteen years, managing numerous efforts and publishing more than 20 articles.

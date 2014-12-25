@@ -1,0 +1,15 @@
+BASIS TECHNOLOGY SUPPORTS LUCENE SEARCH ENGINE
+
+--- Advanced Linguistics Integrate with Popular Open Source Search Engine ---
+
+Cambridge, Massachusetts, March 29, 2007 -- Basis Technology Corp. (www.basistech.com) announced today that it is delivering advanced linguistics modules integrated with the Lucene open source search engine.
+
+Basis Technology's Rosette® Linguistics Platform allows Lucene-based applications to index and search text in multiple languages concurrently, including complex script languages such as Arabic, Chinese, Farsi, Japanese and Korean.
+
+Lucene has been widely adopted by both OEM software vendors and enterprise IT departments as the new standard for embedded and customizable search. The combination of Lucene and Rosette provides a powerful environment for building multilingual applications in such areas as CRM, enterprise information retrieval, eDiscovery, and digital forensics.
+
+Rosette is the world's most widely-used family of commercial software products for foreign language processing. It delivers a broad range of analytic capabilities including language identification, segmentation, lemmatization, noun decompounding, part-of-speech tagging, sentence boundary detection, noun phrase analysis, and entity extraction.
+
+"Lucene is now recognized as the open source standard for building large-scale search applications," said Steven Cohen, Executive Vice President at Basis Technology. "With this new release of Rosette, applications based on Lucene and Solr can benefit from the same advanced linguistic processing used by major web and enterprise search engines."
+
+For more information on the Rosette Linguistics Platform and Lucene visit www.basistech.com/lucene
