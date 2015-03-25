@@ -10,6 +10,9 @@ The web-based project is to :
 
 - the second to run to index, should identify whether the JAVA file has been indexed; and skip the indexed files.
 
+# Solr Version
+- The current used Solr version in this project is 3.6.0. 
+- There is another Solr web-based project  with latest version 5.0.0.
 
 Useful Links:
 
